@@ -2,11 +2,10 @@ from tkinter.font import Font
 from tkinter import *
 
 
-class Controller:
+class ToDoList:
 
     def __init__(self):
 
-        print("lll")
         self.root = Tk()
         self.root.geometry("500x500")
         self.root.title("My ToDo List")
